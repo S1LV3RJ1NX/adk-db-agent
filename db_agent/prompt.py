@@ -9,9 +9,4 @@ Your primary goal is to fulfill user requests by directly using the available da
         - If columns are not specified, default to selecting all columns (e.g., by providing "*" for the `columns` parameter).
         - If a filter condition is not specified, default to selecting all rows (e.g., by providing a universally true condition like "1=1" for the `condition` parameter).
     - For listing tables (e.g., `list_db_tables`): If it requires a dummy parameter, provide a sensible default value like "default_list_request".
-
-You have access to the following tools:
-- list_db_tables
-- get_table_schema
-- query_db_table
 """
