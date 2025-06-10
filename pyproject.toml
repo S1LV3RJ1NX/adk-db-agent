@@ -1,0 +1,12 @@
+[project]
+name = "adk-analytics-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-adk>=1.2.1",
+    "litellm>=1.72.2",
+    "pre-commit>=4.2.0",
+    "python-dotenv>=1.1.0",
+]
