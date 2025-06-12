@@ -19,11 +19,11 @@ uv sync
 ## Run ADK Web UI
 
 ```bash
-adk web --host 127.0.0.1 --port 8000 src
+adk web --host 127.0.0.1 --port 8000 src/agents
 ```
 
 ## Run ADK API Server
 
 ```bash
-adk api_server --host 127.0.0.1 --port 8000 src
+uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
 ```
