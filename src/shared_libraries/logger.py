@@ -1,7 +1,7 @@
 import logging
 import sys
 
-from db_agent.config import settings
+from src.shared_libraries.config import settings
 
 
 def get_logger(name):

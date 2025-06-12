@@ -3,8 +3,8 @@ from google.adk.models.lite_llm import LiteLlm
 from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPServerParams
 from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset
 
-from db_agent.config import settings
-from db_agent.prompt import DB_MCP_PROMPT
+from src.db_agent.prompt import DB_MCP_PROMPT
+from src.shared_libraries.config import settings
 
 
 def create_root_agent():
